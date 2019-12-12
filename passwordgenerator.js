@@ -34,6 +34,16 @@ function passOptions(){
         return;
     }
 
-
+    var passOptions = {
+        passLength: length,
+        hasUpperChars: hasUpperChars,
+        hasLowerChars: hasLowerChars,
+        hasNumbers: hasNumbers,
+        hasSpecialChars: hasSpecialChars
+    };
     
+    return passOptions
 }
+
+
+
